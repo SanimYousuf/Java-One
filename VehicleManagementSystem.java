@@ -114,14 +114,14 @@ class CarMaintenance extends Maintenance {
 class TruckMaintenance extends Maintenance {
     public void performMaintenance()
     {
-        System.out.println("Performing maintenance on Truck: Checking engine and tires!");
+        System.out.println("Performing maintenance on Truck: Checking engine and trailers!");
     }
 }
 
 class BikeMaintenance extends Maintenance {
     public void performMaintenance()
     {
-        System.out.println("Performing maintenance on Bike: Checking engine and tires!");
+        System.out.println("Performing maintenance on Bike: Checking engine and fuel!");
     }
 }
 
